@@ -1,0 +1,44 @@
+.header-of-project-wrapper {
+  /* display: flex; */
+  /* padding: 20px; */
+}
+
+.header-of-project-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.active-projects-counter {
+  font-weight: bold;
+  color: #2F3132;
+  font-size: 1.1em;
+}
+
+.header-of-project-title {
+  height: 64px;
+  line-height: 64px;
+  color: #2F3132;
+  border-bottom: 1px solid #E3E6E8;
+}
+
+.header-of-project-right-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.recently-acquired-wrapper {
+  margin-right: 20px;
+  border: 1px solid #55595E;
+  height: 34px;
+}
+
+.recently-acquired-wrapper a {
+  display: inline-block;
+  line-height: 34px;
+  height: 34px;
+  padding: 0 5px 0 15px;
+  color: #55595E;
+}

@@ -1,0 +1,64 @@
+.headerWrapper {
+  height: 54px;
+  background: #fff;
+  box-shadow: 0px 2px 23px -1px rgba(0,0,0,0.45);
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-menu {
+  display: flex;
+  justify-content: center;
+}
+
+.menuItem {
+  line-height: 54px;
+  height: 54px;
+  padding: 0 10px;
+  color: #55595E;
+  display: flex;
+}
+
+.menuItem:hover {
+  display: flex;
+  line-height: 54px;
+  height: 54px;
+  background: #F1F2F4;
+  color: #55595E;
+  cursor: pointer;
+}
+
+.right-menu {
+  display: flex;
+}
+
+.profile-menu {
+  line-height: 54px;
+  height: 54px;
+}
+
+.userIcon {
+  color: #D5D9DC;
+  line-height: 54px;
+  font-size: 1.75em;
+  margin-right: 5px;
+}
+
+.drop-arrow {
+  margin: auto 5px;
+}
+
+.bell {
+  margin: auto 15px;
+  font-size: 1.25em;
+}
+
+.bell:hover {
+  cursor: pointer;
+}

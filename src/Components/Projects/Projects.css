@@ -1,0 +1,8 @@
+.projects-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.projects-container {
+  /* width: 70%; */
+}
